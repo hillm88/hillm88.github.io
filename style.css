@@ -450,9 +450,7 @@
 }
 
 .projects h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
-  background-size: 100%;
+
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
