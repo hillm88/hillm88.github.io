@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Mason Hill</title>
+    <link href = 'style.css' rel = 'stylesheet'/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
+  </head>
+
+  <!--Start of website-->
+
+  <body>
+    <!--Navigation Bar-->
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="#home" id="navbar_logo">Mason Hill </a>
+
+        <!-- Puildown menu-->
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <!--top ribbon-->
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a href="#home" class="navbar_links" id="home-page"> Home </a>
+          </li>
+          <li class="navbar_item">
+            <a href="#about" class="navbar_links" id="about-page"> About </a>
+          </li>
+          <li class="navbar_item">
+            <a href="#projects" class="navbar_links" id="project-page"> Projects </a>
+          </li>
+          <li class="navbar_item">
+            <a href="#references" class="navbar_links" id="references-page"> References </a>
+          </li>
+          <li class="navbar_item">
+            <a href="#contact" class="navbar_links" id="contact-page"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Personal Section-->
+    <div class="home" id="home">
+      <div class="home_container">
+        <h1 class="home_heading"> Welcome to my website!</h1>
+        <p class ="home_description"> For information about me use the ribbon or scroll </p>
+      </div>
+    </div>
+
+    <!--About section -->
+    <div class="main" id="about">
+      <div class="main_container">
+        <div class= "main_img--container">
+          <div class= "main_img--card"> <img src="Pic.jpg" alt="Picture of me"> </div>
+        </div>
+        <div class="main_content">
+          <h1> My name is Mason Hill </h1>
+          <p> I am a 3rd year Computer Science Student at The Kings University in Edmonton, Alberta. I grew up in Whitecourt, Alberta, and I am a member of the Metis Nation of Alberta as well.
+          I am also on The Kings University Mens Soccer team and I am a member of The Kings University Computer Science Club. In the future I would like to develop mobile apps, and potentially start my own company as well.</p>
+          <button class="main_btn"><a href="#"> Contact</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects" id="projects">
+      <h1> Projects </h1>
+      <div class="projects_wrapper">
+        <div class="projects_card">
+          <h2> Huffman Encoding Vs Regular Encoding </h2>
+          <p> Reading in text from a wikipedia page and comparing the size it takes for it to be encoded regualrly versus by huffman encoding </p>
+          <div class="projects_btn"><button><a href="https://github.com/hillm88/Regular-encoding-versus-Huffman-Encoding">The Code</a></button></div>
+        </div>
+        <div class="projects_card">
+          <h2> 5 Different Types of Sorting Alogrithms Implements </h2>
+          <p> I coded Selection sort, Bubble sort, Insertion sort, Quick sort, Merge sort. </p>
+          <div class="projects_btn"><button><a href="https://github.com/hillm88/5-different-types-of-sorting-algorithms-implemented"> The Code </a></button></div>
+        </div>
+        <div class="projects_card">
+          <h2> OpenGl 3d Maze with Collision </h2>
+          <p> A maze I made in OpenGl that allows you to move through it. </p>
+          <div class="projects_btn"><button><a href="https://github.com/hillm88/Open-GL-3d-Maze-with-collision">The Code</a></button></div>
+        </div>
+        <div class="projects_card">
+          <h2> OpenGl 2d Particle Effects </h2>
+          <p> A program that allows you to play with particles and change whether the have gravity, a black hole, or no effect applied to them. </p>
+          <div class="projects_btn"><button><a href="https://github.com/hillm88/Particle-Effects">The Code</a></button></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Contact section-->
+    <div class="contact" id="contact">
+      <div class="contact_container">
+        <div class="contact_content">
+          <h1> Interested in contacting me? </h1>
+          <h2> Here are your options </h2>
+          <ul>
+            <li>Phone: 780-262-4009</li>
+            <li>Email: Mason.m.hill1@gmail.com</li>
+          </ul>
+          <!-- <button class="main_btn"><a href="#"> Email </a>
+          </button>
+          <button class="main_btn"><a href="#"> Phone Number </a>
+          </button> -->
+
+        </div>
+      </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
