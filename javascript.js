@@ -18,7 +18,7 @@ const highlightMenu = () => {
   const homeMenu = document.querySelector('#home-page');
   const aboutMenu = document.querySelector('#about-page');
   const projectMenu = document.querySelector('#project-page');
-  const referenceMenu = document.querySelector('#references-page');
+ 
   const contactMenu = document.querySelector('#contact-page');
   let scrollPos = window.scrollY;
   // console.log(scrollPos);
