@@ -373,6 +373,7 @@
   .main_container{
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 300px;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -565,17 +566,12 @@
 @media screen and (max-width: 1300px){
   .projects_wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 500px;
   }
 }
 
 @media screen and (max-width: 768px){
   .projects_wrapper{
-    
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 500px;
   }
 }
 
@@ -610,18 +606,7 @@
   font-size: 2.5rem;
 }
 
-.contact h2 {
-  background: #666600;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #999966, #666600);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #999966, #666600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
-  font-size: 2.5rem;
-}
 
 
 
