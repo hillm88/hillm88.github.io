@@ -465,6 +465,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; /* Change to 1fr 1fr 1fr 1fr when more projects are done*/
   grid-template-rows: 1fr;
+  
 }
 
 .projects_card{
@@ -569,6 +570,7 @@
 
 @media screen and (max-width: 768px){
   .projects_wrapper{
+    grid-gap: 20px;
     grid-template-columns: 1fr;
   }
 }
