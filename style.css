@@ -464,7 +464,7 @@
 
 .projects_wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* Change to 1fr 1fr 1fr 1fr when more projects are done*/
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Change to 1fr 1fr 1fr 1fr when more projects are done*/
   grid-template-rows: 1fr;
   
 }
