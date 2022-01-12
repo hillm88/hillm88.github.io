@@ -563,7 +563,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1700px){
   .projects_wrapper {
     grid-template-columns: 1fr 1fr;
   }
