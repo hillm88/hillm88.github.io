@@ -472,6 +472,10 @@
 .work p {
   background: #F9F6EE;  /* fallback for old browsers */
 
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
   margin-bottom: 5rem;
   font-size: 2.5rem;
 }
