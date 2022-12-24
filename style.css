@@ -466,25 +466,14 @@
 }
 
 
-/* 
-.work_img--card:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
-}  */
-
-/* [1] The container */
-.work_hover-zoom {
-  /* overflow: hidden; [1.2] Hide the overflowing of child elements */
-  /* margin: 10px; */
+.work_img--card{
   margin: 10px;
-  height: 425px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   border-radius: 4px;
   display: flex;
-  align-items: center;
-  /* flex-direction: column;
-  justify-content: center; */
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, #2C5364 0%, #0F2027 100%);
 }
