@@ -466,7 +466,16 @@
 }
 
 
-.work_img--card{
+/* 
+.work_img--card:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}  */
+
+/* [1] The container */
+.work_hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
   /* margin: 10px; */
   height: 500px;
   width: 500px;
@@ -479,14 +488,14 @@
   background-image: linear-gradient(to right, #2C5364 0%, #0F2027 100%);
 }
 
-.work_img--card:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+/* [2] Transition property for smooth transformation of images */
+.work_hover-zoom img {
+  transition: transform .5s ease;
 }
 
-.work_img--container{
-  text-align: center;
+/* [3] Finally, transforming the image when container gets hovered */
+.work_hover-zoom:hover img {
+  transform: scale(1.5);
 }
 
 
