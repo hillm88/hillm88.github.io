@@ -475,10 +475,11 @@
 
 /* [1] The container */
 .work_hover-zoom {
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  /* overflow: hidden; [1.2] Hide the overflowing of child elements */
   /* margin: 10px; */
-  height: 500px;
-  width: 500px;
+  margin: 10px;
+  height: 425px;
+  width: 300px;
   border-radius: 4px;
   display: flex;
   align-items: center;
