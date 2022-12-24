@@ -465,8 +465,12 @@
   font-size: 2.5rem;
 }
 
+.work_img--container{
+  text-align: center;
+}
 
 .work_img--card{
+.powerpoint_img--card{
   margin: 10px;
   height: 500px;
   width: 500px;
@@ -478,10 +482,6 @@
   background-image: linear-gradient(to right, #2C5364 0%, #0F2027 100%);
 }
 
-/*
-.work_hover-zoom img {
-  transition: transform .5s ease;
-}
 
 /* [3] Finally, transforming the image when container gets hovered */
 /*
