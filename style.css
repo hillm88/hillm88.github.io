@@ -479,9 +479,9 @@
   background-image: linear-gradient(to right, #2C5364 0%, #0F2027 100%);
 }
 
-/* .work_img--card:hover {
+.work_img--card:hover {
  transform: scale(2.0);
-} */
+}
 
 .work_img--container{
   text-align: center;
