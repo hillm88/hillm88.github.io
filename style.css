@@ -467,12 +467,12 @@
 
 
 .work_img--card{
-  margin: 10px;
+  /* margin: 10px; */
   height: 500px;
   width: 500px;
   border-radius: 4px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, #2C5364 0%, #0F2027 100%);
