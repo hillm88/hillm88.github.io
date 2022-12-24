@@ -473,15 +473,15 @@
   border-radius: 4px;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column;
+  justify-content: center; */
   color: #fff;
   background-image: linear-gradient(to right, #2C5364 0%, #0F2027 100%);
 }
 
-.work_img--card:hover {
- transform: scale(10.0);
-}
+/* .work_img--card:hover {
+ transform: scale(2.0);
+} */
 
 .work_img--container{
   text-align: center;
