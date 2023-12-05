@@ -251,12 +251,12 @@
 }
 
 .main_container{
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  height: 90%;
+  height: 100vh; 
   z-index: 1;
   width: 100%;
   max-width: 1300px;
